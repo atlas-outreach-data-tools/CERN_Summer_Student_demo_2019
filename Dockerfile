@@ -19,10 +19,10 @@ RUN apt-get install -y \
 RUN R -e "install.packages(c('Rcpp','RInside'), repos = \"http://cran.case.edu\")"
 
 # Download and install ROOT master
-##WORKDIR /opt
-##RUN wget http://root.cern.ch/notebooks/rootbinderdata/root.tar.gz 
-##RUN tar xzf root.tar.gz
-##RUN rm root.tar.gz
+WORKDIR /opt
+RUN wget http://root.cern.ch/notebooks/rootbinderdata/root.tar.gz 
+RUN tar xzf root.tar.gz
+RUN rm root.tar.gz
 
 ##USER main
 
