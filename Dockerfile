@@ -33,9 +33,9 @@ ENV LD_LIBRARY_PATH "$ROOTSYS/lib:$LD_LIBRARY_PATH"
 ENV PYTHONPATH      "$ROOTSYS/lib:PYTHONPATH"
 
 # Customise the ROOTbook
-##RUN pip install --upgrade pip
-##RUN pip install metakernel
-##RUN mkdir -p                                 $HOME/.ipython/kernels
-##RUN cp -r $ROOTSYS/etc/notebook/kernels/root $HOME/.ipython/kernels
-##RUN mkdir -p                                 $HOME/.ipython/profile_default/static
-##RUN cp -r $ROOTSYS/etc/notebook/custom       $HOME/.ipython/profile_default/static
+RUN pip install --upgrade pip
+RUN pip install metakernel
+RUN mkdir -p                                 $HOME/.ipython/kernels
+RUN cp -r $ROOTSYS/etc/notebook/kernels/root $HOME/.ipython/kernels
+RUN mkdir -p                                 $HOME/.ipython/profile_default/static
+RUN cp -r $ROOTSYS/etc/notebook/custom       $HOME/.ipython/profile_default/static
