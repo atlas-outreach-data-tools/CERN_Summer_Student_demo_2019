@@ -15,6 +15,9 @@ RUN apt-get install -y \
     r-base \
     r-base-dev
 
+# Install R packages
+RUN R -e "install.packages(c('Rcpp','RInside'), repos = \"http://cran.case.edu\")"
+
 # Download and install ROOT master
 WORKDIR /opt
 RUN wget http://root.cern.ch/notebooks/rootbinderdata/root.tar.gz 
