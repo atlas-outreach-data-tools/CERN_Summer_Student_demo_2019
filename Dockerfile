@@ -1,10 +1,4 @@
 
-FROM andrewosh/binder-base
-
-MAINTAINER Enric Tejedor Saavedra <enric.tejedor.saavedra@cern.ch>
-
-USER root
-
 # Install ROOT prerequisites
 RUN apt-get update
 RUN apt-get install -y \
