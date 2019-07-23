@@ -1,3 +1,4 @@
+FROM andrewosh/binder-base
 
 # Install ROOT prerequisites
 RUN apt-get update
