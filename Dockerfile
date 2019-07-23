@@ -1,5 +1,7 @@
 FROM andrewosh/binder-base
 
+USER root
+
 # Install ROOT prerequisites
 RUN apt-get update
 RUN apt-get install -y \
