@@ -24,13 +24,13 @@ RUN wget http://root.cern.ch/notebooks/rootbinderdata/root.tar.gz
 RUN tar xzf root.tar.gz
 RUN rm root.tar.gz
 
-##USER main
+USER main
 
 # Set ROOT environment
-##ENV ROOTSYS         "/opt/root"
-##ENV PATH            "$ROOTSYS/bin:$ROOTSYS/bin/bin:$PATH"
-##ENV LD_LIBRARY_PATH "$ROOTSYS/lib:$LD_LIBRARY_PATH"
-##ENV PYTHONPATH      "$ROOTSYS/lib:PYTHONPATH"
+ENV ROOTSYS         "/opt/root"
+ENV PATH            "$ROOTSYS/bin:$ROOTSYS/bin/bin:$PATH"
+ENV LD_LIBRARY_PATH "$ROOTSYS/lib:$LD_LIBRARY_PATH"
+ENV PYTHONPATH      "$ROOTSYS/lib:PYTHONPATH"
 
 # Customise the ROOTbook
 ##RUN pip install --upgrade pip
