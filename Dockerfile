@@ -24,11 +24,6 @@ RUN wget http://root.cern.ch/notebooks/rootbinderdata/root.tar.gz
 RUN tar xzf root.tar.gz
 RUN rm root.tar.gz
 
-# Download and install Fastjet
-RUN wget http://root.cern.ch/notebooks/rootbinderdata/fastjet.tar.gz 
-RUN tar xzf fastjet.tar.gz
-RUN rm fastjet.tar.gz
-
 USER main
 
 # Set ROOT environment
@@ -36,10 +31,6 @@ ENV ROOTSYS         "/opt/root"
 ENV PATH            "$ROOTSYS/bin:$ROOTSYS/bin/bin:$PATH"
 ENV LD_LIBRARY_PATH "$ROOTSYS/lib:$LD_LIBRARY_PATH"
 ENV PYTHONPATH      "$ROOTSYS/lib:PYTHONPATH"
-
-# Set ROOT environment for Fastjet
-ENV LD_LIBRARY_PATH "/opt/fastjet/lib:$LD_LIBRARY_PATH"
-ENV ROOT_INCLUDE_PATH "/opt/fastjet/include"
 
 # Customise the ROOTbook
 RUN pip install --upgrade pip
