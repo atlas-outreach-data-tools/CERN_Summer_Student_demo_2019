@@ -34,7 +34,7 @@ ENV PYTHONPATH      "$ROOTSYS/lib:PYTHONPATH"
 
 # Customise the ROOTbook
 RUN pip install --upgrade pip
-RUN pip install --upgrade --ignore-installed metakernel
+##RUN pip install --upgrade --ignore-installed metakernel
 ##RUN mkdir -p                                 $HOME/.ipython/kernels
 ##RUN cp -r $ROOTSYS/etc/notebook/kernels/root $HOME/.ipython/kernels
 ##RUN mkdir -p                                 $HOME/.ipython/profile_default/static
