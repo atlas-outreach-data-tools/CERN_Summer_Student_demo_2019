@@ -10,4 +10,4 @@ Analyses created by the ATLAS Outreah Open Data&Tool group and binderised by Dan
 
 
 MyBinder repo:
-https://mybinder.org/v2/gh/veritasalice/opendataGallery.git/master
+[![BinderYixin](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/veritasalice/opendataGallery.git/master)
