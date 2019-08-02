@@ -10,4 +10,4 @@ Analyses created by the ATLAS Outreah Open Data&Tool group and binderised by Dan
 
 
 Yixin's MyBinder repo:
-[![BinderYixin](https://mybinder.org/v2/gh/veritasalice/CERN_Summer_Student_demo_2019/master)
+[![BinderYixin](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/veritasalice/CERN_Summer_Student_demo_2019/master)
