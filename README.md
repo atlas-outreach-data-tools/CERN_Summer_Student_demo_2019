@@ -9,5 +9,5 @@ visit http://root.cern.ch or [try it on Binder](http://root.cern.ch/notebooks/ro
 Analyses created by the ATLAS Outreah Open Data&Tool group and binderised by Danilo Piparo, danilo.piparo@cern.ch, and Enric Tejedor, enric.tejedor.saavedra@cern.ch and Arturo Sáncchez, arturos@cern.ch.
 
 
-MyBinder repo:
-[![BinderYixin](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/veritasalice/opendataGallery.git/master)
+Yixin's MyBinder repo:
+[![BinderYixin](https://mybinder.org/v2/gh/veritasalice/CERN_Summer_Student_demo_2019/master)
