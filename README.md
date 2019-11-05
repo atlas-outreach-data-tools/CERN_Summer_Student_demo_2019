@@ -1,7 +1,7 @@
 # A gallery of analyses based on [ATLAS Open Data](http://opendata.atlas.cern)
-[![Yixin's MyBinder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/veritasalice/CERN_Summer_Student_demo_2019/85a302c1fe0dcc3ad4d1d8ca39e7297961741dfc)
+[![Yixin's MyBinder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/atlas-open-data-docs/CERN_Summer_Student_demo_2019/c898251a2a692764e41ba053351ab8d8428567b5)
 
-This is coming from [this repository](https://github.com/veritasalice/CERN_Summer_Student_demo_2019)
+This is coming from [this repository](https://github.com/atlas-open-data-docs/CERN_Summer_Student_demo_2019)
 
 This is a gallery of demo analyses performed on public data of [ATLAS at LHC] (www.atlas.cern) experiment.
 
