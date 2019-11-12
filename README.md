@@ -1,5 +1,5 @@
 # A gallery of analyses based on [ATLAS Open Data](http://opendata.atlas.cern)
-[![MyBinder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/atlas-outreach-data-tools/CERN_Summer_Student_demo_2019/)
+[![MyBinder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/atlas-outreach-data-tools/CERN_Summer_Student_demo_2019/f35228ff485b19cecc3452f20b90ffff4a2d1998)
 
 This is coming from [this repository](https://github.com/atlas-outreach-data-tools/CERN_Summer_Student_demo_2019)
 
