@@ -3,7 +3,7 @@
 
 **or**
 
-[![CERN SWAN](https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png)](http://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/atlas-open-data-docs/CERN_Summer_Student_demo_2019.git)
+[![CERN SWAN](https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png)](http://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/atlas-outreach-data-tools/CERN_Summer_Student_demo_2019.git)
 
 
 This is coming from [this repository](https://github.com/atlas-outreach-data-tools/CERN_Summer_Student_demo_2019)
